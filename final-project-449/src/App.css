@@ -1,0 +1,105 @@
+body {
+  background-color: #181818;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #181818;
+}
+
+.anime-search {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #282828;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.1);
+}
+
+.anime-search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.anime-search-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #333;
+  color: #fff;
+}
+
+.anime-search-button {
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.anime-search-button:hover {
+  background-color: #0056b3;
+}
+
+.anime-search-loading,
+.anime-search-error {
+  margin: 20px 0;
+  color: #ff5555;
+}
+
+.anime-search-results {
+  margin-top: 20px;
+}
+
+.anime-search-result {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.anime-search-result h2 {
+  margin: 0 0 10px 0;
+  color: #007BFF;
+}
+
+.anime-search-result img,
+.anime-search-result video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.welcome-message {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+
+.quote-section {
+  margin-top: 2em;
+  text-align: center; 
+}
+
+.quote-button {
+  margin-top: 1em;
+}
+
+.anime-search-quote p {
+  font-size: 1.5em;
+}
